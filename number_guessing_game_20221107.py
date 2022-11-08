@@ -53,6 +53,7 @@ def start_game():
             else:
                 print("It's lower")
     print('Got it!\nThe number is {} and you did {} attempts'.format(answer,tries))
+    return print('\nThe game is over!\nThank you for participating!\nHope you had fun :)')
 # Kick off the program by calling the start_game function.
 start_game()
 
